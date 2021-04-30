@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# correct way to install brew
-echo | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# Correct way to install brew
+# Run the command without the script
+# echo | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew install --cask visual-studio-code
 brew install --cask iterm2
 brew install --cask google-chrome
@@ -106,3 +107,7 @@ touch ~/.hushlogin
 
 # Avoid the issue with iterm after typing 'Option + <'
 # https://apple.stackexchange.com/questions/136928/using-alt-cmd-right-left-arrow-in-iterm
+# Iterm2 Preferences -> Profiles -> Keys -> Presets… -> Natural Text Editing
+
+# Open new tab in Iterm2 in the same path
+# Iterm2 Preferences -> Profiles -> Working Directory -> "Reuse previous session's directory"
