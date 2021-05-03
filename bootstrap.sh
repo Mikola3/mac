@@ -102,6 +102,10 @@ code --install-extension redhat.vscode-yaml
 # Disable your last log in to system
 touch ~/.hushlogin
 
+# Fix the issue with zsh
+# https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
+compaudit | xargs chmod g-w
+
 # Increase the speed of kursor
 # Keyboard -> 'Key Repeat' -> 'Fast' and 'Delay Until Repeat' -> 'Slow'
 
