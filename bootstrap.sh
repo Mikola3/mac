@@ -35,7 +35,6 @@ brew install wget
 brew install watch
 # Before the command to set watch
 
-
 brew install npm
 
 brew install kubernetes-cli
@@ -64,6 +63,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # To resolve the issue with oh-my-zsh https://github.com/ohmyzsh/ohmyzsh/issues/6835
 chmod 755 /usr/local/share/zsh
 chmod 755 /usr/local/share/zsh/site-functions
+# Error: The following directories are not writable by your user:
+# /usr/local/share/zsh/site-functions
+sudo chown -R $(whoami) /usr/local/share/zsh/site-functions
 # Fix the issue with zsh
 # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
 compaudit | xargs chmod g-w
