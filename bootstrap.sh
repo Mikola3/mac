@@ -100,6 +100,8 @@ code --install-extension bbenoist.vagrant
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension amazonwebservices.aws-toolkit-vscode
 code --install-extension timonwong.shellcheck
+code --install-extension me-dutour-mathieu.vscode-github-actions
+code --install-extension GitHub.copilot
 
 # yaml format when saving the yaml file: "Format Document" command in VSC
 code --install-extension redhat.vscode-yaml
