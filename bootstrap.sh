@@ -17,6 +17,8 @@ brew install --cask slack
 brew install --cask telegram
 brew install --cask evernote
 brew install --cask anki
+# avoid blue color
+brew install --cask flux
 
 brew install --cask --force virtualbox
 # overcome the issue with installing virtualbox
