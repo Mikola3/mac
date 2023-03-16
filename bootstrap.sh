@@ -105,7 +105,7 @@ code --install-extension timonwong.shellcheck
 code --install-extension me-dutour-mathieu.vscode-github-actions
 code --install-extension GitHub.copilot
 # terraform autocomplete
-code --install-extension erd0s
+code --install-extension erd0s.terraform-autocomplete
 
 # yaml format when saving the yaml file: "Format Document" command in VSC
 code --install-extension redhat.vscode-yaml
