@@ -106,6 +106,7 @@ code --install-extension me-dutour-mathieu.vscode-github-actions
 code --install-extension GitHub.copilot
 # terraform autocomplete
 code --install-extension erd0s.terraform-autocomplete
+code --install-extension HashiCorp.terraform # It allows to use "Format Document" in VSC.
 
 # yaml format when saving the yaml file: "Format Document" command in VSC
 code --install-extension redhat.vscode-yaml
